@@ -27,7 +27,7 @@
             if (currentTransactions.length !== 0) {
 
                 let gasPriceArray = currentBlock.transactions.map(x => ethers.utils.formatEther(x.gasPrice));
-                console.log(gasPriceArray);
+                //console.log(gasPriceArray);
 
                 currentTransactions = currentTransactions.map((x) => {
                     return {

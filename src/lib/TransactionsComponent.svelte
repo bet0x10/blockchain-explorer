@@ -18,7 +18,7 @@ export let transactions;
             <tr>
                 <td>{ transaction.from.slice(0,4) }...{transaction.from.slice(-4)}</td>
                 <td>{ transaction.to.slice(0,4) }...{transaction.to.slice(-4)}</td>
-                <td>{transaction.hash.slice(0,5)}...{transaction.hash.slice(-5)}</td>
+                <td><a href={`/hash/hash-${transaction.hash}`}>{transaction.hash.slice(0,5)}...{transaction.hash.slice(-5)}</a></td>
                 <td>{transaction.transactionIndex}</td>
             </tr>
         {/each}
