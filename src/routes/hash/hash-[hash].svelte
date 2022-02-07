@@ -27,6 +27,6 @@
 
 </script>
 
-<h2>Lazy address visualizer</h2>
+<h2>Lazy transaction visualizer</h2>
 
 <div>{ JSON.stringify(transaction) }</div>
